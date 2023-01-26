@@ -1,0 +1,47 @@
+name: Deploy to Github Pages
+run-name: ${{ github.actor }} is deploying to github pages
+on:
+  push:
+    branches:
+      - main
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code in the main branch
+        uses: actions/checkout@v3
+        with:
+          ref: 'main'
+      - name: debug -> check branch
+        run: git rev-parse --abbrev-ref HEAD
+      - run: pwd
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+      - run: ls ~
+      - name: Build Jekyll for GitHub Pages
+        uses: actions/jekyll-build-pages@v1.0.6
+      - name: copy around output
+        run: |
+          mkdir ../output
+          cp -r _site/* ../output/
+          git fetch
+          git checkout gh-pages
+          sudo git clean -fd
+      - name: Configure Git
+        run: |
+          git config --local user.email "github-actions[bot]@jaffboys.com"
+          git config --local user.name "github-actions[bot]"
+      - name: Git pull 
+        run: git pull
+      - name: Checkout to gh-pages
+        run: git checkout gh-pages
+      - name: copy docs folder into gh-pages branch (agh this is hacky but whatever)
+        run: cp -r ../output/* ./docs/
+      - name: Add files
+        run: git add .
+      - name: commit and push files
+        run: |
+          git commit -a -m "Publish Blog"
+          git push
+      - run: echo "🍏 This job's status is ${{ job.status }}."
