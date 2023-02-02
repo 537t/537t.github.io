@@ -30,8 +30,8 @@ jobs:
           sudo git clean -fd
       - name: Configure Git
         run: |
-          git config --local user.email "github-actions[bot]@jaffboys.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.email "evin@jaffboys.com"
+          git config --local user.name "evinjaff"
       - name: Git pull 
         run: git pull
       - name: Checkout to gh-pages
