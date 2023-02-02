@@ -45,7 +45,7 @@ permalink: /calendar/
             <tr>
                 <td>Tue Jan 17 (#0) <strong>Introduction</strong></td>
                 <td><br></td>
-                <td>slides: <a href="">PDF</a><br>recording:&nbsp;<a href="">Box</a></td>
+                <td>slides: <a href="https://wustl.instructure.com/courses/108374/files/5828765?module_item_id=1689435">PDF</a><br>recording:&nbsp;<a href="https://wustl.app.box.com/file/1116368045843">Box</a></td>
                 <td></td>
             </tr>
             <tr>
@@ -64,7 +64,7 @@ permalink: /calendar/
             </tr>
             <tr>
                 <td>Thu Jan 19 (#1) <strong>Modeling Computation</strong></td>
-                <td><a href="">pre-lecture notes</a><br><br><br></td><td>slides:&nbsp;<a href="">PDF</a><br>recording:&nbsp;<a href="">Box</a>
+                <td><a href="">pre-lecture notes</a><br><br><br></td><td>slides:&nbsp;<a href="https://wustl.instructure.com/courses/108374/files/5828766?module_item_id=1689436">PDF</a><br>recording:&nbsp;<a href="https://wustl.app.box.com/file/1118055320001">Box</a>
                 </td>
                 <td>&gt;&gt; Assign <a href="">HW1</a><br></td>
             </tr>
@@ -125,7 +125,7 @@ permalink: /calendar/
                 </td>
             </tr>
             <tr>
-                <td>Tue Jan 24 (#2) <strong>Proofs of inductive invariance properties</strong></td><td><a href="">pre-lecture notes</a></td><td>slides:&nbsp;<a href="">PDF</a><br>recording:&nbsp;<a href="">Box</a>
+                <td>Tue Jan 24 (#2) <strong>Proofs of inductive invariance properties</strong></td><td><a href="">pre-lecture notes</a></td><td>slides:&nbsp;<a href="https://wustl.instructure.com/courses/108374/modules/items/1696207">PDF</a><br>recording:&nbsp;<a href="https://wustl.app.box.com/file/1124948585552">Box</a>
                 </td>
                 <td><br></td>
             </tr>
@@ -144,8 +144,8 @@ permalink: /calendar/
                 </td>
             </tr>
             <tr>
-                <td>Thu Jan 26 (#3) <strong>DPLL Algorithm, symbolic reachability</strong></td>
-                <td><br><br></td><td>slides:&nbsp;<a href="">PDF</a><br>recording:&nbsp;<a href="">Box</a>
+                <td>Thu Jan 26 (#3) <strong>Specification</strong></td>
+                <td><br><br></td><td>slides:&nbsp;<a href="https://wustl.instructure.com/courses/108374/files/5855407?module_item_id=1696207">PDF</a><br>recording:&nbsp;<a href="https://wustl.app.box.com/file/1124948688323">Box</a>
                 </td>
                 <td><br></td>
             </tr>
@@ -199,7 +199,7 @@ permalink: /calendar/
             </tr>
             <tr>
                 <td>Tue Jan 31 (#4) <strong>Satisfiability Modulo Theory</strong></td>
-                <td><br><br></td><td>slides:&nbsp;<a href="">PDF</a><br>recording:&nbsp;<a href="">Box</a>
+                <td><br><br></td><td>slides:&nbsp;<a href="">PDF</a><br>recording:&nbsp;<a href="https://wustl.app.box.com/file/1129778666783">Box</a>
                 </td>
                 <td><br></td>
             </tr>
