@@ -5,6 +5,8 @@
 layout: page
 ---
 
+<link rel="stylesheet" href="assets/main.css">
+
  {% for post in site.posts %}
   <article>
     <h2>

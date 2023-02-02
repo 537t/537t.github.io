@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Welcome to CSE 537T!"
-date:   2023-01-14 10:59:49 -0600
+date:   2023-01-12 10:59:49 -0600
 categories: jekyll update
+url: "jekyll/update/2023/01/12/welcome-to-537T.html"
 ---
 Welcome to CSE 537T!
 
